@@ -30,7 +30,5 @@ public class DummyTable {
 	}
 	public void setColumn4(String column4) {
 		this.column4 = column4;
-	}
-	
-	
+	}	
 }

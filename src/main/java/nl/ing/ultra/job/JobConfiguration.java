@@ -58,14 +58,14 @@ public class JobConfiguration {
 	@Bean
 	public ReadListener getReadListener(){
 		ReadListener listener = new ReadListener();
-		listener.setLogSize(1);
+		listener.setLogSize(25000);
 		return listener;
 	}
 	
 	@Bean
 	public WriteListener getWriteListener(){
 		WriteListener listener = new WriteListener();
-		listener.setLogSize(1);
+		listener.setLogSize(25000);
 		return listener;
 	}
 	// end::beans
