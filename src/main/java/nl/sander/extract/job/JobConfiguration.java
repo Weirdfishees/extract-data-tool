@@ -1,4 +1,4 @@
-package nl.ing.ultra.job;
+package nl.sander.extract.job;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -10,10 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import nl.ing.ultra.domain.DummyTable;
-import nl.ing.ultra.jobsteps.UnloadStep;
-import nl.ing.ultra.listeners.ReadListener;
-import nl.ing.ultra.listeners.WriteListener;
+import nl.sander.extract.domain.DummyTable;
+import nl.sander.extract.jobsteps.UnloadStep;
+import nl.sander.extract.listeners.ReadListener;
+import nl.sander.extract.listeners.WriteListener;
 
 @Configuration
 @EnableBatchProcessing

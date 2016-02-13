@@ -1,4 +1,4 @@
-package nl.ing.ultra.jobsteps;
+package nl.sander.extract.jobsteps;
 
 import java.sql.SQLException;
 
@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.jdbc.core.RowMapper;
 
-import nl.ing.ultra.domain.DummyFooter;
-import nl.ing.ultra.domain.DummyHeader;
-import nl.ing.ultra.domain.DummyTable;
-import nl.ing.ultra.domain.DummyTableRowMapper;
+import nl.sander.extract.domain.DummyFooter;
+import nl.sander.extract.domain.DummyHeader;
+import nl.sander.extract.domain.DummyTable;
+import nl.sander.extract.domain.DummyTableRowMapper;
 
 @Configuration
 public class UnloadStep {

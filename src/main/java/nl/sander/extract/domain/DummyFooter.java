@@ -1,4 +1,4 @@
-package nl.ing.ultra.domain;
+package nl.sander.extract.domain;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.batch.item.file.FlatFileFooterCallback;
 
-import nl.ing.ultra.domain.DummyTable;
+import nl.sander.extract.domain.DummyTable;
 
 public class DummyFooter implements ItemWriter<DummyTable>, FlatFileFooterCallback {
 

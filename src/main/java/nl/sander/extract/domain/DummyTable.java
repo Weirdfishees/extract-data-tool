@@ -1,4 +1,4 @@
-package nl.ing.ultra.domain;
+package nl.sander.extract.domain;
 
 public class DummyTable {
 

@@ -1,4 +1,4 @@
-package nl.ing.ultra.domain;
+package nl.sander.extract.domain;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

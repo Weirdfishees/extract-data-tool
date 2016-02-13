@@ -1,10 +1,10 @@
-package nl.ing.ultra.listeners;
+package nl.sander.extract.listeners;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.batch.core.ItemReadListener;
 
-import nl.ing.ultra.domain.DummyTable;
+import nl.sander.extract.domain.DummyTable;
 
 public class ReadListener implements ItemReadListener<DummyTable>{
 	

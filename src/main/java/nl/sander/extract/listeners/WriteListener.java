@@ -1,4 +1,4 @@
-package nl.ing.ultra.listeners;
+package nl.sander.extract.listeners;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.batch.core.ItemWriteListener;
 
-import nl.ing.ultra.domain.DummyTable;
+import nl.sander.extract.domain.DummyTable;
 
 public class WriteListener implements ItemWriteListener<DummyTable>{
 	
